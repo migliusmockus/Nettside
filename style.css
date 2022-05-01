@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    margin: 0 auto;
+    width: 1000px;
+}
+
+.krig-for {
+    background-image: url('Bilder/Koreakrigen_for.jpg');
+    margin-left: -100px;
+    max-width: 1060px;
+    height: 969px;
+}
+.krig-idag {
+    background-image: url('Bilder/Koreakrigen_idag_ny.jpg');
+    max-width: 100%;
+    height: auto;
+    background-position: top right;
+    background-repeat: no-repeat;
+}
