@@ -1,0 +1,7 @@
+Last ned I visual studio code extensions "Live-server" og skru den på i "index.html" for å se nettsiden
+Jeg brukte ganske mye tid på styling av nettsiden og jeg synes det var litt dum siden jeg brukte ikke så mye tid på research og sånt, jeg har et tankekart.
+
+I index.html så vil det komme opp to bilder, til venstre så er nettsiden som viser KRIGEN før, og til høyre nettsiden som viser KRIGEN i dag.
+Jeg prøvde å legge til text popup som viser hvor hvilken bilde tar deg.
+
+Det er egentlig alt, håper at nettsiden var fin :)

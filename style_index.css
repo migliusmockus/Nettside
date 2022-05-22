@@ -1,0 +1,66 @@
+@media screen and (max-width: 500px) {
+    .column {
+        width: 100%;
+    }
+}
+
+.body {
+    background-color: black;
+}
+
+.column {
+    width: 50%;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.column .row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.row {
+    display: flex;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+}
+
+#cf1 {
+    position: relative;
+    margin: 0 auto;
+}
+
+#cf1 img {
+    position: fixed;
+    -webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
+}
+
+#cf1 .transparent {
+    opacity: 0;
+}
+
+#cf2 {
+    position: relative;
+    margin: 0 auto;
+}
+
+#cf2 img {
+    position: fixed;
+    -webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
+}
+
+#cf2 .transparent {
+    opacity: 0;
+}
